@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto | Portafolio de Ingeniería de Sistemas</title>
+
+    <meta name="description"
+        content="Página de contacto del portafolio de Ingeniería de Sistemas para conocer las formas de comunicación y enviar un mensaje.">
+
+    <meta name="author" content="Nicolas David Beltran Cupitra">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Contacto | Portafolio de Ingeniería de Sistemas">
+    <meta property="og:description"
+        content="Conoce las formas de contacto y envía un mensaje a través del formulario del portafolio.">
+    <meta property="og:url" content="URL_REAL_DE_TU_PAGINA/paginas/contacto.html">
+    <meta property="og:site_name" content="Portafolio de Ingeniería de Sistemas">
+    <meta property="og:image" content="../images/portafolio.png">
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="500">
+    <meta property="og:image:alt" content="Portafolio de Ingeniería de Sistemas">
+    <meta property="og:locale" content="es_CO">
+
+    <link rel="icon" href="../images/favicon.png">
+
+    <link rel="stylesheet" href="../css/styles.css">
+
+</head>
+
+
+<body>
+
+    <!-- ============ Encabezado y navegación ============ -->
+
+    <header>
+
+        <h1>Contacto</h1>
+
+        <p>
+            Puedes utilizar este espacio para comunicarte
+            conmigo y conocer más sobre mi trabajo.
+        </p>
+
+        <nav>
+
+            <ul>
+
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="nosotros.html">Sobre mí</a>
+                </li>
+
+                <li>
+                    <a href="servicios.html">Proyectos</a>
+                </li>
+
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- ============ Sección: Información de contacto ============ -->
+
+        <section>
+
+            <h2>Información de contacto</h2>
+
+            <p>
+                Si deseas conocer más sobre mis proyectos o mi proceso
+                de formación, puedes utilizar los medios de contacto
+                disponibles en esta página.
+            </p>
+
+            <p>
+                Correo electrónico:
+                <a href="mailto:correo@ejemplo.com">
+                    correo@ejemplo.com
+                </a>
+            </p>
+
+            <p>
+                Perfil profesional:
+                <a href="https://www.linkedin.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    LinkedIn
+                </a>
+            </p>
+
+        </section>
+
+
+        <!-- ============ Sección: Formulario ============ -->
+
+        <section>
+
+            <h2>Envíame un mensaje</h2>
+
+            <form action="#" method="post">
+
+                <fieldset>
+
+                    <legend>Datos de contacto</legend>
+
+
+                    <p>
+
+                        <label for="nombre">
+                            Nombre:
+                        </label>
+
+                        <input type="text"
+                               id="nombre"
+                               name="nombre"
+                               required
+                               minlength="2">
+
+                    </p>
+
+
+                    <p>
+
+                        <label for="correo">
+                            Correo electrónico:
+                        </label>
+
+                        <input type="email"
+                               id="correo"
+                               name="correo"
+                               required>
+
+                    </p>
+
+
+                    <p>
+
+                        <label for="telefono">
+                            Teléfono:
+                        </label>
+
+                        <input type="tel"
+                               id="telefono"
+                               name="telefono"
+                               pattern="[0-9]{10}">
+
+                    </p>
+
+
+                    <p>
+
+                        <label for="motivo">
+                            Motivo del contacto:
+                        </label>
+
+                        <select id="motivo"
+                                name="motivo">
+
+                            <option value="informacion">
+                                Solicitar información
+                            </option>
+
+                            <option value="proyecto">
+                                Información sobre proyectos
+                            </option>
+
+                            <option value="otro">
+                                Otro
+                            </option>
+
+                        </select>
+
+                    </p>
+
+
+                    <p>
+
+                        <label for="mensaje">
+                            Mensaje:
+                        </label>
+
+                        <textarea id="mensaje"
+                                  name="mensaje"
+                                  rows="6"
+                                  required
+                                  minlength="10"></textarea>
+
+                    </p>
+
+
+                    <p>
+
+                        <label for="fecha">
+                            Fecha de contacto:
+                        </label>
+
+                        <input type="date"
+                               id="fecha"
+                               name="fecha">
+
+                    </p>
+
+
+                    <button type="submit">
+                        Enviar mensaje
+                    </button>
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+
+        <!-- ============ Sección: Horarios ============ -->
+
+        <section>
+
+            <h2>Horario de contacto</h2>
+
+            <p>
+                Estos son los horarios establecidos para responder
+                mensajes relacionados con el portafolio.
+            </p>
+
+            <table>
+
+                <caption>
+                    Horarios disponibles
+                </caption>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Día</th>
+
+                        <th>Horario</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+
+                        <td>Lunes a viernes</td>
+
+                        <td>
+                            <time datetime="09:00">9:00 a. m.</time>
+                            -
+                            <time datetime="17:00">5:00 p. m.</time>
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>Sábado</td>
+
+                        <td>
+                            <time datetime="09:00">9:00 a. m.</time>
+                            -
+                            <time datetime="12:00">12:00 p. m.</time>
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>Domingo</td>
+
+                        <td>
+                            No disponible
+                        </td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+
+        <!-- ============ Sección: Preguntas ============ -->
+
+        <section>
+
+            <h2>Antes de contactar</h2>
+
+            <p>
+                Para facilitar la comunicación, puedes indicar
+                claramente el motivo del mensaje y proporcionar
+                la información necesaria.
+            </p>
+
+
+            <details>
+
+                <summary>
+                    ¿Sobre qué temas puedo recibir información?
+                </summary>
+
+                <p>
+                    Puedes consultar información relacionada con
+                    mis proyectos, formación académica y conocimientos
+                    desarrollados durante mi proceso de aprendizaje.
+                </p>
+
+            </details>
+
+
+            <details>
+
+                <summary>
+                    ¿Qué información debería incluir en un mensaje?
+                </summary>
+
+                <p>
+                    Es recomendable indicar tu nombre, el motivo
+                    del contacto y una descripción clara del mensaje.
+                </p>
+
+            </details>
+
+        </section>
+
+
+        <!-- ============ Sección: Enlaces ============ -->
+
+        <section>
+
+            <h2>Otros espacios</h2>
+
+            <p>
+                También puedes regresar a las diferentes secciones
+                del portafolio utilizando los siguientes enlaces.
+            </p>
+
+            <p>
+                <a href="../index.html">
+                    Volver al inicio
+                </a>
+            </p>
+
+            <p>
+                <a href="nosotros.html">
+                    Conocer más sobre mí
+                </a>
+            </p>
+
+            <p>
+                <a href="servicios.html">
+                    Ver mis proyectos y habilidades
+                </a>
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- ============ Pie de página ============ -->
+
+    <footer>
+
+        <p>
+            Portafolio de Ingeniería de Sistemas
+        </p>
+
+        <p>
+            © <time datetime="2026">2026</time>
+            Nicolas David Beltran Cupitra
+        </p>
+
+        <p>
+            Contacto:
+            <a href="contacto.html">Página de contacto</a>
+        </p>
+
+        <p>
+            <a href="https://www.linkedin.com/"
+               target="_blank"
+               rel="noopener noreferrer">
+                LinkedIn
+            </a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
